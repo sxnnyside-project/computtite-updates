@@ -4,7 +4,7 @@
 ![License](https://img.shields.io/badge/license-SPUL-purple)
 
 <p align="center">
-  <strong>IT Asset Management ✦ Governance ✦ Local &amp; Cloud</strong><br>
+  <strong>IT Asset Management ✦ Free, No Subscriptions ✦ Local &amp; Cloud</strong><br>
   <em>Official release channel for Computtite — a free desktop ITAM platform by Sxnnyside Project.</em>
 </p>
 
@@ -20,28 +20,28 @@
 
 ## About
 
-**Computtite** is a free IT Asset Management platform for teams, organizations, and IT professionals. It runs as a native desktop application on macOS, Windows, and Linux.
+**Computtite** is a free desktop application for tracking the technology assets your team uses every day — computers, phones, servers, licenses, and more. It runs natively on macOS, Windows, and Linux, with no browser required and no data sent anywhere you don't control.
 
-Most ITAM tools are expensive, cloud-dependent, or built for enterprises that can afford dedicated IT software departments. Computtite is built for everyone else — teams that need organized asset tracking without licensing fees or mandatory cloud dependencies.
+Most ITAM tools are expensive, cloud-only, or built for enterprises with dedicated IT departments. Computtite is for everyone else — teams replacing spreadsheets, small IT shops that need structure without overhead, and organizations that want control over their own data.
 
-Computtite works fully offline with local storage, or connected to the cloud for team sync. Core functionality is never gated behind subscriptions.
+Computtite works fully offline, or connected to the cloud for team sync. Everything works without a subscription. Nothing is locked behind a paywall.
 
 ### Philosophy
 
 > *"Software should be an experience — personal, evolving, and built for the people who use it."*
 
-Computtite is developed and maintained by Sxnnyside Project under the SaaX (Software as an Experience) model. Funding is voluntary. The platform evolves through community participation and direct user support.
+Computtite is developed and maintained by Sxnnyside Project under the SaaX (Software as an Experience) model. Funding is voluntary. The platform evolves based on real usage — shaped by the people who use it, not by a product roadmap written for investors.
 
 ## Features
 
-- **Asset tracking**: create and manage any type of technology asset — computers, servers, phones, printers, and more — with fully configurable field schemas
-- **Governance**: role-based access control with Permission Profiles that allow fine-grained capability management per team member
+- **Asset tracking**: track any type of technology asset your team owns or manages — computers, servers, phones, printers, licenses, and more; fields and structure adapt to your inventory, not the other way around
+- **Access control**: decide who can see, edit, or export assets; assign roles to team members and fine-tune their permissions with named profiles
 - **Asset Visibility**: control who can see each asset — everyone, administrators only, or specific permission profiles
 - **Workspace organization**: isolated workspaces, each with their own storage; switch between clients or projects without losing data
 - **Local & Cloud modes**: work fully offline or sync your workspace across your team via the cloud
 - **People & departments**: structured employee records and department organization with relational integrity
 - **Integrations**: export reports directly to Google Sheets or Notion databases via OAuth
-- **Reporting & export**: generate inventory and assignment reports; export to Excel, CSV, or JSON
+- **Reporting & export**: generate inventory and assignment history reports; export to Excel, CSV, or JSON — or push directly to Google Sheets or Notion
 - **Statistics**: charts and summaries for asset counts, type distribution, department coverage, and license status
 - **Backup & Recovery**: automatic scheduled backups with integrity verification and corruption recovery
 - **Auto-updates**: receive and install updates directly from this repository; choose between stable and beta channels
@@ -77,11 +77,11 @@ The active channel can be changed at any time in **Settings → Updates**.
 
 ## Usage
 
-Once installed, Computtite runs as a standalone desktop application. No account is required for local use.
+Once installed, Computtite runs as a native desktop application. An account is required to create and access a workspace — it is used to identify your workspace, not to gate features or collect your data.
 
-**Local mode** — create a workspace and start tracking assets immediately. All data stays on your machine. Automatic backups run according to your configured schedule.
+**Local mode** — your asset data is stored exclusively on your machine. Computtite uses your account only to identify the workspace; no asset data is sent to any server. Automatic backups run according to your configured schedule.
 
-**Cloud mode** — connect a Supabase-backed workspace to sync data across your team. Cloud workspaces require an account and workspace invitation.
+**Cloud mode** — connect a Supabase-backed workspace to sync data across your team. Asset data is stored in your cloud workspace and shared with invited members according to their roles and visibility settings.
 
 **Receiving updates** — Computtite checks for updates automatically. When an update is available, a notification appears in the application. Updates can also be checked manually in **Settings → Updates**. The updater downloads, verifies, and installs the new version; a restart prompt is shown when the install is ready.
 
