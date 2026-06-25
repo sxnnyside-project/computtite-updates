@@ -6,6 +6,38 @@ This project follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) an
 
 ---
 
+## [3.5.2] — 2026-06-25
+
+### Added
+
+- **Interactive tutorial** — a step-by-step walkthrough for first-time users to help you get started with the workspace
+- **"What's New" screen** — see the latest features and changes right inside the app after installing an update
+- **Real-time role updates** — changes to a member's role or permission profile now apply instantly without requiring them to restart the app
+- **Activity tracking** — actions are now securely audited in the background
+
+### Changed
+
+- **Improved Assets view** — the Licenses and Layouts tabs now use a more powerful data table for easier reading and interaction
+- **Expanded translations** — improved Spanish and English translations across the app, including the settings and onboarding screens
+- **Profile page improvements** — better avatar handling and updated support links
+
+### Fixed
+
+- Resolved a minor memory issue that could occur after printing reports
+- Fixed a rare issue where user roles could display incorrectly on the workspace page
+
+---
+
+## [3.5.1] — 2026-06-22
+
+### Added
+
+- **Actionable Workspace Health** — clicking a health alert (such as items needing maintenance, unassigned assets, or license issues) now takes you directly to a filtered view of exactly those items
+- **License filtering** — the Licenses tab now features summary cards at the top (active, expiring soon, expired) that let you instantly filter the list
+- **Seat overage alerts** — Computtite will now warn you if a software license has more seats assigned than you own, displaying this both in Workspace Health and the Licenses tab
+
+---
+
 ## [3.5.0] — 2026-06-19
 
 ### Added
