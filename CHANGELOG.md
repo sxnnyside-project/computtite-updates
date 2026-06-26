@@ -6,6 +6,22 @@ This project follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) an
 
 ---
 
+## [3.5.3] — 2026-06-26
+
+### Added
+
+- **More field formats** — text fields now support six additional formats: IPv6, CIDR (network ranges), hostname, port number, semantic version, and license key; each one validates what you type so only correct values are accepted
+- **Options editor for select and multi-select fields** — add, remove, and manage the list of choices for a select or multi-select field directly inside the field editor, without leaving the page
+- **Integer-only number fields** — number fields can now be restricted to whole numbers only, useful for quantities, seat counts, and similar fields where decimals don't apply
+- **Open URLs in one click** — fields that store a web address now show a button to open it in your browser directly from the asset detail view
+
+### Fixed
+
+- Asset type icons now display correctly throughout the app — in the sidebar and on the workspace home screen; previously some icons fell back to a generic placeholder
+- Anonymous usage data from users who had opted in was not reaching its destination; this has been corrected
+
+---
+
 ## [3.5.2] — 2026-06-25
 
 ### Added
