@@ -6,6 +6,31 @@ This project follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) an
 
 ---
 
+## [3.6.0] — 2026-08-26
+
+### Added
+
+- **First-Party Plugin Ecosystem & Plugin Store** — Computtite now features a dedicated Plugin Store page where you can manage and inspect official extensions with granular permission controls. The initial launch includes six built-in plugins:
+  - *Copy to Clipboard* — instant one-click copying for asset identifiers and field values.
+  - *Custom Layouts* — choose between Standard, Bento, and Mixed card layouts in the asset detail view.
+  - *Custom Export Templates* — save and apply custom field presets and column orders for your exports.
+  - *Stats Export* — export comprehensive workspace statistics reports directly to PDF.
+  - *QR Generator* — generate high-resolution QR codes encoding asset UUIDs for instant scanning.
+  - *Barcode Generator* — generate canonical Code-128 linear barcodes compatible with handheld barcode readers and Computtite Mobile Companion.
+- **Revamped Statistics Hub** — transform your workspace data into actionable insights with core inventory KPIs, valuation summaries, interactive distribution charts by status and type, and native PDF exports.
+- **Extensible Asset Detail View** — dynamic layout customization, field action buttons, and direct code-generation modals in the asset detail header.
+
+### Changed
+
+- **Optimized Performance & Bundle Footprint** — dynamic code-splitting for heavy export libraries (ExcelJS, pdf-lib) and optimized vector asset caching for a faster, lighter desktop experience.
+
+### Fixed
+
+- **Window Resolution Presets & Resizing** — resolved window sizing issues across desktop operating systems when switching resolution presets, with improved window dragging ergonomics on macOS.
+- **Integration Stability** — enhanced reliability for Google Drive, Google Sheets, and Notion connections with native CORS-free networking.
+
+---
+
 ## [3.5.3] — 2026-06-26
 
 ### Added

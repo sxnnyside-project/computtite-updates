@@ -1,6 +1,6 @@
 # Computtite
 
-![Version](https://img.shields.io/badge/version-3.5.0-blue)
+![Version](https://img.shields.io/badge/version-3.6.0-blue)
 ![License](https://img.shields.io/badge/license-SPUL-purple)
 
 <p align="center">
