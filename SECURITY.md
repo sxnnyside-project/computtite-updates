@@ -2,13 +2,13 @@
 
 ## Reporting a Vulnerability
 
-If you find a security vulnerability in **Computtite**, report it privately before disclosing it publicly.
+If you find a security vulnerability in **Computtite Updates**, report it privately before disclosing it publicly.
 
-**Preferred channel:**  
-Email — `security.sxnnyside@sxnnysideproject.com`
+**Preferred channel:**
+Email — `legal.sxnnyside@sxnnysideproject.com`
 
-**Alternative:**  
-GitHub Private Security Advisory
+**Alternative:**
+[GitHub Private Security Advisory](https://github.com/Sxnnyside-Project/computtite-updates/security/advisories/new)
 
 ---
 
@@ -44,9 +44,9 @@ Public disclosure is expected after a fix is available. If a fix isn't possible,
 
 ## Scope
 
-This policy covers the **Computtite** application and this release repository.  
-For broader ecosystem concerns, use the email above.
+This policy covers the **Computtite Updates** repository and distribution packages.
+For ecosystem-wide security concerns, use the email above.
 
 ---
 
-*Computtite is a Sxnnyside Project product. Part of the Sxnnyside Project.*
+*Computtite Updates is a Sxnnyside Project release. Part of the [Sxnnyside Project](https://sxnnysideproject.com).*
