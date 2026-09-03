@@ -6,6 +6,16 @@ This project follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) an
 
 ---
 
+## [3.6.2] — 2026-09-03
+
+### Fixed
+
+- **Cloud Workspace Sign-in Synchronization** — Resolved an intermittent timing issue during authentication that could prevent cloud workspace users from accessing their workspace after signing in or resuming a session, causing them to stay on the workspace selection screen.
+- **Resilient Deep Link Handling** — Hardened deep link callback deduplication at module scope, preventing redundant authorization code exchanges.
+- **Release Pipeline Acceleration** — Enabled multithreaded linking on Windows and Linux and integrated compiler caching in our build and distribution infrastructure.
+
+---
+
 ## [3.6.1] — 2026-09-03
 
 ### Performance & Speed
