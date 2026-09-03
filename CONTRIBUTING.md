@@ -79,7 +79,7 @@ Accepted types:
 Examples:
 
 ```
-docs: update release notes for v3.6.0
+docs: update release notes for v3.6.1
 fix: correct typo in download instructions
 chore: bump release metadata
 ```

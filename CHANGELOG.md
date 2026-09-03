@@ -6,6 +6,29 @@ This project follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) an
 
 ---
 
+## [3.6.1] — 2026-09-03
+
+### Performance & Speed
+
+- **Instant Search & History Loading** — database queries for asset filtering, employee lookups, and audit history now load up to **169x faster** with automatic database indexing. Workspace navigation is completely smooth even with thousands of assets.
+- **Faster Application Launch** — the initial app download and parse size is **343 kB lighter** (-36%), helping Computtite open noticeably faster on desktop.
+- **Smart Offline Startup** — if your internet connection is slow or unstable, Computtite will no longer freeze waiting on the network. It automatically opens your local workspace within 3 seconds so you can get right to work.
+
+### Added
+
+- **Black Pillar Health & Crash Diagnostics** — an anonymous, privacy-focused diagnostic system from Sxnnyside Project that automatically reports technical crashes, freezes, and panics so we can fix them immediately.
+  - No personal data, asset names, emails, or IP addresses are ever collected.
+  - Includes a simple toggle in **Profile → Privacy** to turn it on or off at any time without affecting any feature of the app.
+
+### Fixed
+
+- **Password reset reliability** — clicking password reset links from your email or browser now reliably opens Computtite and directs you straight to the reset screen.
+- **Plugin Store browsing for all members** — workspace members can now freely browse and discover available plugins in the Plugin Store (installation and configuration remains reserved for administrators).
+- **Accurate report assignments** — all generated reports (inventory, maintenance, departments, and employee lists) now correctly map the currently assigned user for every asset.
+- **Clear reconnection errors** — reconnecting Google Workspace and Notion now clearly explains any configuration or OAuth issue instead of failing silently.
+
+---
+
 ## [3.6.0] — 2026-08-26
 
 ### Added
