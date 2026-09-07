@@ -6,6 +6,27 @@ This project follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) an
 
 ---
 
+## [3.7.0] — 2026-09-07
+
+### Added
+
+- **Desktop Magic Pairing for Mobile Companion** — Log in to Computtite Mobile Companion on iOS and Android instantly without typing passwords or email addresses. Open **Profile → Session**, click **Pair Mobile Companion**, and scan the high-contrast QR code with your phone camera to transfer your secure session immediately.
+- **Full-Page Settings Hub** — Workspace settings have been reimagined into full-width pages that take advantage of your entire screen, replacing narrow modal popups. Easily navigate from the collapsible sidebar to dedicated sub-pages for *Workspace*, *Members*, *Integraciones*, *Almacenamiento*, *Actualizaciones*, *Apoyo*, and *Zona de Peligro*.
+- **Official Account Deletion Workflow** — A new transparent privacy option in *Zona de Peligro* allows workspace members to request permanent account deletion via the official Sxnnyside Project privacy process, with safeguards that prevent leaving active team workspaces without an owner.
+
+### Changed
+
+- **Unconstrained Desktop Window Resizing** — Removed rigid window resolution presets. Computtite can now be freely resized, snapped, maximized, minimized, or tiled across any monitor setup or aspect ratio without restrictions.
+- **Collapsible Sidebar Navigation** — The Settings entry in the sidebar now expands to list all configuration sections directly, saving time and clicks.
+
+### Fixed
+
+- **Camera-Optimized QR Recognition** — Upgraded QR generation to standard ISO/IEC 18004 compliance, ensuring immediate optical scanning recognition by all mobile device cameras.
+- **Clean Table Empty States** — Normalized empty states across Licenses, Visibility, Profiles, Invitations, and Audit Timeline, eliminating redundant nested buttons and ensuring design consistency.
+- **Localization Polish** — Resolved untranslated system labels across administrative panels and confirmation modals for a 100% complete bilingual experience.
+
+---
+
 ## [3.6.2] — 2026-09-03
 
 ### Fixed
@@ -272,7 +293,13 @@ Previous versions of Computtite were built on Electron. Version 3.0.0 was a comp
 
 ---
 
-[Unreleased]: https://github.com/SxnnysideProject/computtite-updates/compare/v3.5.0...HEAD
+[Unreleased]: https://github.com/SxnnysideProject/computtite-updates/compare/v3.7.0...HEAD
+[3.7.0]: https://github.com/SxnnysideProject/computtite-updates/releases/tag/v3.7.0
+[3.6.2]: https://github.com/SxnnysideProject/computtite-updates/releases/tag/v3.6.2
+[3.6.1]: https://github.com/SxnnysideProject/computtite-updates/releases/tag/v3.6.1
+[3.6.0]: https://github.com/SxnnysideProject/computtite-updates/releases/tag/v3.6.0
+[3.5.3]: https://github.com/SxnnysideProject/computtite-updates/releases/tag/v3.5.3
+[3.5.2]: https://github.com/SxnnysideProject/computtite-updates/releases/tag/v3.5.2
 [3.5.0]: https://github.com/SxnnysideProject/computtite-updates/releases/tag/v3.5.0
 [3.4.0]: https://github.com/SxnnysideProject/computtite-updates/releases/tag/v3.4.0
 [3.3.3]: https://github.com/SxnnysideProject/computtite-updates/releases/tag/v3.3.3
