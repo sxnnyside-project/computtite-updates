@@ -1,7 +1,7 @@
 # Computtite
 
-![Version](https://img.shields.io/badge/version-3.7.0-blue)
-![License](https://img.shields.io/badge/License-SPUL-purple)
+![Version](https://img.shields.io/badge/version-3.8.0-blue)
+![License](https://img.shields.io/badge/License-SPL-red)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey)
 
 <p align="center">
@@ -98,7 +98,7 @@ We welcome community feedback, bug reports, and documentation improvements!
 
 ## License
 
-This project is licensed under the **Sxnnyside Personal Use License (SPUL)** — see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **Sxnnyside Proprietary License (SPL)** — see the [LICENSE](LICENSE) file for details.
 
 ---
 

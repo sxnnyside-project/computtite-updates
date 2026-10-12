@@ -6,6 +6,46 @@ This project follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) an
 
 ---
 
+## [3.8.0] — 2026-10-12
+
+### Highlights
+
+- **Licenses in one place** — Add, edit or remove a software license right from an asset's page or from the Licenses tab, and jump from any license straight to its asset.
+- **Licenses sync across devices** — Everyone in a cloud workspace sees the same seats and expiry dates.
+- **Reports that follow your template** — PDF and Excel reports respect your colors, header, footer and fonts, and long statistics reports continue on the next page instead of cutting content off.
+- **Clearer wording** — Buttons use short, familiar words such as Add, Save and Cancel, and English and Spanish are fully aligned.
+
+### New
+
+- Edit a license without recreating it, including licenses on an asset you have not saved yet.
+- Choose the **Stable** or **Beta** update channel in **Settings → Updates**.
+- On Mac, **New Asset** asks which type to create, and **Export Report** and **Export Inventory** are separate menu items.
+- The app now appears only when it is ready, so there is no white flash when it starts.
+- Only one Computtite window opens at a time, and links from your email open in the window that is already running.
+- If you reset your password from an email link, it now opens the reset form directly.
+- Photos you upload are smaller and load faster.
+
+### Improved
+
+- Switching workspaces is cleaner: you no longer see the previous workspace's data while the new one loads.
+- When inviting, removing or changing a member fails, you now see what went wrong.
+- Menus, buttons and messages are consistent across the whole app, with no mixed English and Spanish.
+- A stronger security setup for the app and faster, more reliable updates.
+
+### Fixed
+
+- **Sync no longer gets stuck on "Syncing…"** — If something could not be sent, the app now says so and keeps trying instead of spinning forever.
+- **Returning an asset now reaches the cloud** — Closing an assignment in a cloud workspace could fail to sync, even for the owner. It now saves correctly, including for assignments created before cloud sync was turned on.
+- **Asset pages no longer go blank** when you open or switch between assets.
+- **License and asset changes appear right after syncing**, without reopening the page.
+- **Links from a license** now take you to the right asset.
+- **Reports with accented characters** (such as é or ñ) no longer cause the app to stop when exporting.
+- **Missing or untranslated texts** that showed up as technical codes now read properly.
+- **"Reveal in folder"** now selects the file in Finder or Explorer.
+- **The What's new window** works again.
+
+---
+
 ## [3.7.0] — 2026-09-07
 
 ### Added
