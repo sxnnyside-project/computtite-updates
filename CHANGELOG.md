@@ -6,6 +6,48 @@ This project follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) an
 
 ---
 
+## [3.9.0] — 2026-11-02
+
+### Highlights
+
+- **Send reports where your team works** — The new **Send to…** button sends a report to a new or existing Google Sheet, to Google Drive, or to Notion.
+- **License keys on every device** — In cloud workspaces, license keys are stored securely and show up on every device of the people allowed to see them.
+- **Works offline, stays in sync** — Employee photos and asset pictures stay available without a connection, and items you delete now disappear on every device.
+- **Safer backups and access** — Restoring or importing a backup keeps your latest changes, and only members allowed to manage people can send invitations.
+
+### New
+
+- **Send to…** in Reports: a new Google Sheet, an existing sheet and tab, a file in a *Computtite Reports* folder in Google Drive, or Notion (a new database, a new page with a table, or rows added to an existing database).
+- Save to Drive uploads the same PDF or Excel file you download, using your export template.
+- Choose which Notion page receives your report, and the app remembers it.
+- Employee photos and asset pictures are saved on your device, so they show without a connection.
+
+### Improved
+
+- Opening a cloud workspace works offline and never overwrites changes you made while disconnected.
+- Restoring or importing a backup saves a safety copy of your current data first, and keeps your most recent changes.
+- Importing a backup now checks that the file is intact and belongs to this workspace before replacing anything, and tells you why when it does not.
+- Long reports no longer fail halfway: Google and Notion exports are split into parts and retried when the service asks you to wait.
+- Reports use your language for words like *Returned*, *Expired* or *Expiring in 10 days*.
+- Creating a local workspace needs a one-time sign-in; after that it works without a connection.
+
+### Fixed
+
+- **Opening a workspace a second time no longer fails.**
+- **Deleted items disappear everywhere** — Before, a deletion only reached the device where you made it.
+- **Only members allowed to manage people can send or cancel invitations**, and changing a member's role or permission profile works again.
+- **Too many wrong passwords now pause sign-in for 15 minutes**, as intended.
+- Employees who hold assets with no status now show as having assets.
+- Multiple-choice fields no longer break when a saved value is plain text.
+- A license key in a cloud workspace is no longer left in the sync queue.
+- Smaller fixes and updated components for security.
+
+### Heads-up
+
+- Workspaces created before version 3.5.0 must be opened once with a release from 3.5 to 3.8 before moving to this version.
+
+---
+
 ## [3.8.0] — 2026-10-12
 
 ### Highlights
@@ -334,6 +376,8 @@ Previous versions of Computtite were built on Electron. Version 3.0.0 was a comp
 ---
 
 [Unreleased]: https://github.com/SxnnysideProject/computtite-updates/compare/v3.7.0...HEAD
+[3.9.0]: https://github.com/SxnnysideProject/computtite-updates/releases/tag/v3.9.0
+[3.8.0]: https://github.com/SxnnysideProject/computtite-updates/releases/tag/v3.8.0
 [3.7.0]: https://github.com/SxnnysideProject/computtite-updates/releases/tag/v3.7.0
 [3.6.2]: https://github.com/SxnnysideProject/computtite-updates/releases/tag/v3.6.2
 [3.6.1]: https://github.com/SxnnysideProject/computtite-updates/releases/tag/v3.6.1

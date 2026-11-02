@@ -1,6 +1,6 @@
 # Computtite
 
-![Version](https://img.shields.io/badge/version-3.8.0-blue)
+![Version](https://img.shields.io/badge/version-3.9.0-blue)
 ![License](https://img.shields.io/badge/License-SPL-red)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey)
 
@@ -41,7 +41,7 @@ Most IT Asset Management (ITAM) tools force you into an uncomfortable choice: pa
 **Computtite is built differently:**
 
 1. **Zero Paywalls, Zero Subscriptions** — Every feature (custom schemas, governance, reporting, plugins, cloud sync) is completely free to use.
-2. **Offline-First & Truly Private** — Create local workspaces backed by fast SQLite databases on your disk. Your data never touches the internet unless you choose cloud sync.
+2. **Offline-First & Truly Private** — Create local workspaces backed by fast SQLite databases on your disk. Your workspace data never touches the internet unless you choose cloud sync (creating a workspace needs a one-time sign-in).
 3. **Native Desktop Speed** — Built with Tauri v2 and Rust for lightweight resource consumption, instant startup, and zero Electron bloat.
 4. **Team Collaboration Ready** — When you need multi-user collaboration, connect a Supabase cloud workspace for real-time synchronization and role-based permissions.
 
