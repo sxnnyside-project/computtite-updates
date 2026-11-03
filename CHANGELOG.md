@@ -6,6 +6,39 @@ This project follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) an
 
 ---
 
+## [3.9.1-beta.1] — 2026-11-03
+
+This is a beta. Update to it from Settings → Updates by choosing the beta channel.
+
+### Highlights
+
+- **Documents on every asset** — Attach PDF, Word, Excel and text files to an asset, up to 15 MB each, and open them from the asset's page.
+- **Who can see and change them** — Two new permissions, *View documents* and *Edit documents*, can be set in each permission profile. Documents follow the asset: if someone cannot see an asset, they cannot see its files.
+
+### New
+
+- **Documents** in the asset editor: add several files at once (PDF, DOC, DOCX, XLSX and TXT) and remove the ones you no longer need. The page of the asset lists them and opens each one with the program you already use for that file type.
+- Files are checked before they are saved, so a renamed or damaged file is refused with a clear message.
+- In cloud workspaces documents are stored privately and sync to every device of the people allowed to see them. In local workspaces they stay on your computer.
+- **Show files folder** in Settings → Cloud & Storage opens the folder with your photos and documents on this computer (local workspaces).
+
+### Improved
+
+- Asset photos accept JPG, JPEG, JFIF, PNG, WebP and BMP, and the editor now shows the accepted formats. Photos are still resized and compressed automatically.
+- The documents card in the editor looks and works like the photo card.
+
+### Fixed
+
+- **Photos and files in the cloud now respect the member's role.** Before, any member could replace or delete other people's photos, viewers included. Now it needs permission to edit (or to create, so a new asset or employee can carry its photo).
+- The Integrations page no longer repeats its description, and an empty license list shows a single Add button.
+
+### Heads-up
+
+- Animated GIF images are no longer accepted for photos. Use JPG, PNG, WebP or BMP.
+- Only PDF, DOC, DOCX, XLSX and TXT are accepted; macro-enabled files such as .docm and .xlsm are not. Documents always open in your own programs, never inside Computtite.
+
+---
+
 ## [3.9.0] — 2026-11-02
 
 ### Highlights
